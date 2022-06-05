@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
 @import url('awesome.css');
 @import url('pricing.css');
+@import url('axure.css');
 
 *{
     padding: 0;
@@ -29,17 +30,20 @@ html{
     line-height: 42px;
     text-align: center;
     padding-top: 80px;
-    margin-bottom: 34px;
+    padding-bottom: 34px;
     text-transform: uppercase;
 }
 
-.line{
-    border: 1px solid #E72424;
+.title::after{
+    content: '';
+    margin: 34px auto;
     width: 64px;
     height: 2px;
-    margin: auto;
-    margin-bottom: 34px;
+    background-color: #E72424;
+    display: block;
 }
+
+
 
 .paragraph{
     color: #86878B;
