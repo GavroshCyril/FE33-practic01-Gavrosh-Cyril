@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+@import url('pricing.css');
+
 *{
     padding: 0;
     margin: 0;
@@ -17,14 +19,14 @@ html{
     margin: 0 auto;
 }
 
-.awesome-title{
+.title{
     font-family: 'Raleway', sans-serif;
     color: #212121;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 34px;
     text-transform: uppercase;
 }
@@ -37,38 +39,46 @@ html{
     margin-bottom: 34px;
 }
 
-.awesome-paragraph{
+.paragraph{
     color: #86878B;
     font-size: 14px;
     line-height: 19px;
     text-align: center;
-    margin-bottom: 68px;
+    padding-bottom: 68px;
 }
 
 .awesome-cards{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding-bottom: 96px;
+    margin: 0 -15px;
 }
 
 .awesome-card{
     max-width: 350px;
+    margin: 0 15px;
 }
 
 .awesome-image{
-   margin-bottom: 30px;
-   display: flex;
-   align-items: center;
-   justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #E72424;
+    overflow: hidden;
+    margin: 0 auto 34px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  
 }
 
 .awesome-image img{
-    border: 1px solid #E72424;
+
     padding: 22px 16px;
-    width: 70px;
-    height: 70px;
-    border-radius: 50%;
+  
+    
 }
 
 .awesome-span{
