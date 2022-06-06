@@ -1,0 +1,55 @@
+.customers-cards{
+    padding-bottom: 145px;
+    margin: 0 -15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.customers-card{
+    max-width: 300px;
+    margin: 0 15px;
+}
+
+.customers-card-info{
+    background-color: #E2E2E2;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.customers-card-info p {
+    color: #86878B;
+    text-align: center;
+    padding: 9px 22px 6px 23px;
+    font-size: 14px;
+}
+
+.customers-card-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-about-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.card-about-name{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 45px;
+    margin-bottom: 12px;
+    color: rgba(51, 51, 51, 1);
+}
+
+.card-about-job{
+    font-size: 14px;
+    color: #86878B;
+    margin-left: 83px;
+}
