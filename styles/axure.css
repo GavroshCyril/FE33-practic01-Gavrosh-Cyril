@@ -1,72 +1,71 @@
-.axure{
-    background-image: url('../images/axure-bg.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+.axure {
     position: relative;
-    z-index: 4;
+    padding: 100px 0;
+    background: url('../images/axure-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.axure::before{
-    content: '';
+.axure::after{
+    content: "";
     position: absolute;
-    display: block;
-    background-color: rgba(0, 0, 0, 0.55);
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.55);
 }
 
-.axure-title{
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+.axure-title {
+    font-family: 'Raleway';
     font-size: 36px;
     line-height: 42px;
+    font-weight: 400;
     text-align: center;
-    padding-bottom: 34px;
-    text-transform: uppercase;
-    color: #FFF;
+    margin-bottom: 34px;
+    color: #FFFFFF;
 }
 
 .axure-title::after{
-    content: '';
-    margin: 30px auto;
+    content: "";
+    margin: auto;
     width: 64px;
     height: 2px;
-    background-color: rgba(255, 255, 255, 1);
-    display: block;
+    background-color: #FFFFFF;
+    margin-top: 34px;   
+    display: block;  
 }
-
-.axure-paragraph p{
-    color: rgba(255, 255, 255, 0.8);
+.axure-podtext {
     font-family: 'Raleway';
     font-weight: 300;
     font-size: 16px;
+    line-height: 19px;
     text-align: center;
+    color: rgba(255, 255, 255, 0.8);
     margin-bottom: 57px;
 }
-
-.axure-button-wrap{
-    padding-bottom: 38px;
-    display: flex;
-    justify-content: center;
-}
-
-.azure-button{
-    color: #FFF;
-    background-color: transparent;
-    font-weight: 600;
-    font-size: 15px;
+.axure-btn {
+    font-family: 'Open Sans';
+    display: block;
+    margin: auto;
     width: 135px;
-    height: 42px;
     border: 1px solid #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: rgba(28,28,28,0);
     cursor: pointer;
-    transition: 0.2s ease-in;
-    -webkit-transition: 0.2s ease-in;
-    -moz-transition: 0.2s ease-in;
-    -ms-transition: 0.2s ease-in;
-    -o-transition: 0.2s ease-in;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
 
-.azure-button:hover{
-    background-color: rgba(255, 255, 255, 0.27);
+.axure-btn:hover{
+    background-color: rgba(255, 255, 255, 0.344);
 }

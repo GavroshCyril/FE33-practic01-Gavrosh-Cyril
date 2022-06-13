@@ -1,93 +1,92 @@
-.customers-cards{
-    padding-bottom: 145px;
+.customers {
+    padding: 100px 0;
+}
+.customers-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin: 0 -15px;
+}
+.customers-card {
+    width: 298px;
+    margin: 0 15px;
+}
+.customers-card-text {
+    background-color: #E2E2E2;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #86878B;
+    padding: 10px;
+    border-radius: 7px;
+    position: relative;
+}
+.customers-card-text::after{
+    content: "";
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent; 
+    border-right: 10px solid transparent; 
+    border-top: 20px solid #E2E2E2;
+    position: absolute;
+    left: 40px;
+    top: 100%;
+    
+
+}
+.customers-card-info {
+    margin-top: 22px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-
-.customers-card{
-    max-width: 300px;
-    margin: 0 15px;
-}
-
-.title-customers{
-    padding-top: 50px;
-}
-
-
-.customers-card-info{
-    background-color: #E2E2E2;
-    border-radius: 7px;
-    -webkit-border-radius: 7px;
-    -moz-border-radius: 7px;
-    -ms-border-radius: 7px;
-    -o-border-radius: 7px;
-    margin-bottom: 22px;
-    position: relative;
-}
-
-
-.customers-card-info::before{
-    content: '';
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 10px 0px 10px;
-    border-color: rgba(226, 226, 226, 1) transparent transparent transparent;
-    left: 40px;
-    top: 100%;
-    position: absolute;
-}
-
-.customers-card-info p {
-    color: #86878B;
-    text-align: center;
-    padding: 9px 22px 6px 23px;
-    font-size: 14px;
-}
-
-.customers-card-about{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.card-about-info{
-    display: flex;
-    flex-direction: column;
-    flex-grow: 3;
-}
-
-.card-about-name{
-    font-weight: 700;
-    font-size: 20px;
-    margin-left: 45px;
-    margin-bottom: 12px;
-    color: rgba(51, 51, 51, 1);
-}
-
-.card-about-job{
-    font-size: 14px;
-    color: #86878B;
-    margin-left: 83px;
-}
-
-
-.card-about-img{
+.customers-card-img-spanch {
     width: 70px;
     height: 70px;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto 30px;
+    background: url('../images/customers-avatar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    
 }
 
-.card-about-img img{
-    width: 100%;
+.customers-card-img-Lisa{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background: url('../images/customers-avatar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.customers-card-img-donald{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 0 auto 30px;
+    background: url('../images/customers-avatar.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+.job {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #86878B;
+    display: block;
+    text-align: right;
 }
