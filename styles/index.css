@@ -32,7 +32,6 @@ html{
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    padding-top: 80px;
     padding-bottom: 34px;
     text-transform: uppercase;
 }
@@ -54,5 +53,11 @@ html{
     margin-bottom: 68px;
     font-family: 'Open Sans';
     font-weight: 300;
+}
+
+
+section{
+    padding-top: 80px;
+    padding-bottom: 96px;
 }
 

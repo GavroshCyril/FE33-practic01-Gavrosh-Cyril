@@ -11,6 +11,10 @@
     margin: 0 15px;
 }
 
+.title-customers{
+    padding-top: 50px;
+}
+
 
 .customers-card-info{
     background-color: #E2E2E2;
@@ -45,13 +49,14 @@
 
 .customers-card-about{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .card-about-info{
     display: flex;
     flex-direction: column;
+    flex-grow: 3;
 }
 
 .card-about-name{
@@ -66,4 +71,23 @@
     font-size: 14px;
     color: #86878B;
     margin-left: 83px;
+}
+
+
+.card-about-img{
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.card-about-img img{
+    width: 100%;
 }
