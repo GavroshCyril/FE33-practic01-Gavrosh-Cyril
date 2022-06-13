@@ -1,0 +1,30 @@
+
+.header{
+    background-color: #000000;
+}
+
+.header-wrap{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar-item{
+    margin-left: 48px;
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 600;
+    text-transform: capitalize;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+
+.navbar-item:hover{
+    color: #EC7979;
+}
